@@ -20,12 +20,22 @@ Note: - that in one rotation, you have to shift elements by one step only.
     a41 > a42 > a43 > a44      |
 
 
+As an example, rotate the Start matrix by 2:
 
- As an example, rotate the Start matrix by 2:
+start   
+a b c d
+l 1 2 e
+k 4 3 f
+j i h g
 
-   start    --> 1 rotation --> 2 rotations
+1 rotation
+b c d e
+a 2 3 f
+l 1 4 g
+k j i h
 
-  a b c d        b c d e         c d e f
-  l 1 2 e        a 2 3 f         b 3 4 g
-  k 4 3 f        l 1 4 g         a 2 1 h
-  j i h g        k j i h         l k j i
+2 rotations
+c d e f
+b 3 4 g
+a 2 1 h
+l k j i
