@@ -19,15 +19,13 @@ Note: - that in one rotation, you have to shift elements by one step only.
      v                 ^       |
     a41 > a42 > a43 > a44      |
 
-#########################################################################################
-#
-# As an example, rotate the Start matrix by 2:
-#
-#   start    --> 1 rotation --> 2 rotations
-#
-#  a b c d        b c d e         c d e f
-#  l 1 2 e        a 2 3 f         b 3 4 g
-#  k 4 3 f        l 1 4 g         a 2 1 h
-#  j i h g        k j i h         l k j i
-#
-#########################################################################################
+
+
+ As an example, rotate the Start matrix by 2:
+
+   start    --> 1 rotation --> 2 rotations
+
+  a b c d        b c d e         c d e f
+  l 1 2 e        a 2 3 f         b 3 4 g
+  k 4 3 f        l 1 4 g         a 2 1 h
+  j i h g        k j i h         l k j i
